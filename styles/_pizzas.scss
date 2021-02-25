@@ -1,0 +1,32 @@
+.pizzas_container{
+    background: linear-gradient(0deg, rgba(45,103,146,1) 11%, rgba(157,145,145,1) 84%);
+    height: 100vh;
+}
+.pizzas{
+
+    .pizza_promotions{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        .pizza_promo{
+            height: 100%;
+            margin: 0rem 3rem;
+            align-content: center;
+            border-radius: 5rem;
+            overflow: hidden;
+
+            h4{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+
+            }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+

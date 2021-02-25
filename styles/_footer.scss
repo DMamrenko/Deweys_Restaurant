@@ -1,0 +1,23 @@
+footer{
+    min-height: 10vh;
+    background: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        flex: 1;
+        list-style: none;
+        justify-content: space-between;
+    }
+    h1{
+        flex: 3;
+        color: #2D6792;;
+    }
+}
+.social_media{
+    width: 35%;
+    background: #2D6792;
+    border-radius: 1rem;
+}

@@ -1,0 +1,595 @@
+.nav-container {
+  background: #2D6792;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: .3rem solid black;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+nav p img {
+  width: 35%;
+}
+
+nav h2 {
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+  text-align: left;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  list-style: none;
+}
+
+.menu_button:hover {
+  color: white;
+  background: black;
+  border-radius: 3rem;
+}
+
+.home_container {
+  background: radial-gradient(50% 50% at 50% 50%, #C5BBBB 18.23%, rgba(45, 103, 146, 0.82) 100%);
+  height: 90vh;
+}
+
+.home .description_and_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.home .description_and_information .home_description {
+  background: #C5BBBB;
+  border-radius: 5rem;
+  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2.25;
+      -ms-flex: 2.25;
+          flex: 2.25;
+  margin-right: 2rem;
+}
+
+.home .description_and_information .home_description .home_desc_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .description_and_information .home_description .home_desc_content .dewey_image {
+  width: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.home .description_and_information .home_description .home_desc_content p {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding: 1rem;
+}
+
+.home .description_and_information .general_information {
+  background: #C5BBBB;
+  border-radius: 5rem;
+  text-align: center;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.home .home_promotions {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  overflow: hidden;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home .home_promotions .home_promo {
+  border-radius: 5rem;
+  width: 30%;
+  height: 99%;
+  overflow: hidden;
+}
+
+.home .home_promotions .home_promo h4 {
+  margin: 2rem 2rem;
+  text-align: center;
+}
+
+.home .home_promotions .home_promo img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  min-height: 10vh;
+  background: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer h1 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  color: #2D6792;
+}
+
+.social_media {
+  width: 35%;
+  background: #2D6792;
+  border-radius: 1rem;
+}
+
+.pizzas_container {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(11%, #2d6792), color-stop(84%, #9d9191));
+  background: linear-gradient(0deg, #2d6792 11%, #9d9191 84%);
+  height: 100vh;
+}
+
+.pizzas .pizza_promotions {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pizzas .pizza_promotions .pizza_promo {
+  height: 100%;
+  margin: 0rem 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.pizzas .pizza_promotions .pizza_promo h4 {
+  text-align: center;
+}
+
+.pizzas .pizza_promotions .pizza_promo p {
+  text-align: center;
+}
+
+.pizzas .pizza_promotions .pizza_promo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.burgers_container {
+  background: radial-gradient(50% 50% at 50% 50%, #C5BBBB 18.23%, rgba(45, 103, 146, 0.82) 100%);
+  height: 100vh;
+}
+
+.burgers .burgers_promotion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.burgers .burgers_promotion .burger_promo {
+  width: 25%;
+  margin: 0rem 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 5rem;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.burgers .burgers_promotion .burger_promo #sides_button {
+  font-family: 'Righteous', cursive;
+  color: white;
+  background: rgba(45, 103, 146, 0.82);
+  font-size: 1.75rem;
+  font-weight: lighter;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.burgers .burgers_promotion .burger_promo h4 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.burgers .burgers_promotion .burger_promo p {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.burgers .burgers_promotion .burger_promo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sides_container {
+  background: -webkit-gradient(linear, left bottom, left top, from(#c5bbbb), color-stop(90%, #2d6792));
+  background: linear-gradient(0deg, #c5bbbb 0%, #2d6792 90%);
+  height: 100vh;
+}
+
+.sides .sides_promotion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sides .sides_promotion .sides_promo {
+  height: 95%;
+  width: auto;
+  margin: 0rem 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.sides .sides_promotion .sides_promo h4 {
+  text-align: center;
+}
+
+.sides .sides_promotion .sides_promo p {
+  text-align: center;
+}
+
+.sides .sides_promotion .sides_promo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.drinks_container {
+  background: radial-gradient(50% 50% at 50% 50%, #C5BBBB 18.23%, rgba(45, 103, 146, 0.82) 100%);
+  height: 100vh;
+}
+
+.drinks .drinks_promotion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.drinks .drinks_promotion .drinks_promo {
+  height: 95%;
+  width: 25%;
+  margin: 0rem 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.drinks .drinks_promotion .drinks_promo h4 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.drinks .drinks_promotion .drinks_promo p {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.drinks .drinks_promotion .drinks_promo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.catering_container {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(11%, #2d6792), color-stop(84%, #9d9191));
+  background: linear-gradient(0deg, #2d6792 11%, #9d9191 84%);
+  height: 100vh;
+}
+
+.catering .catering_promotions {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.catering .catering_promotions .catering_promo {
+  height: 100%;
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.catering .catering_promotions .catering_promo h4 {
+  text-align: center;
+}
+
+.catering .catering_promotions .catering_promo p {
+  text-align: center;
+}
+
+.catering .catering_promotions .catering_promo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.careers_container {
+  background: radial-gradient(50% 50% at 50% 50%, #C5BBBB 18.23%, rgba(45, 103, 146, 0.82) 100%);
+  height: 90vh;
+}
+
+.careers .careers_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.careers .careers_information .info_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.careers .careers_information .info_content .face_div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.careers .careers_information .info_content .face_div .dewey_face {
+  width: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.careers .careers_information .info_content .info_text {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  margin-right: 2rem;
+}
+
+.careers .careers_information .info_content .info_text h3 {
+  margin-right: 10rem;
+}
+
+.careers .careers_promotion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.careers .careers_promotion .blue_information_block {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  background: #2D6792;
+  border-radius: 5rem;
+  margin: 0rem 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.careers .careers_promotion .blue_information_block p {
+  color: white;
+  margin: 2rem 2rem;
+}
+
+.detailed_black {
+  color: black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Righteous', cursive;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 2.25rem;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1.75rem;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 1.75rem;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.white_directions {
+  color: white;
+  padding-top: .5rem;
+}
+
+.blue_directions {
+  color: #2D6792;
+  padding-top: .5rem;
+}
+
+.gray_promo {
+  background: #C5BBBB;
+}
+
+.blue_promo {
+  background: #2D6792;
+}
+
+.blue_promo h4, .blue_promo p {
+  color: white;
+}
+
+.page {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.info_block {
+  background: #C5BBBB;
+  border-radius: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0rem;
+  width: 75%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=style.css.map */

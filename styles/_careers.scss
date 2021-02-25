@@ -1,0 +1,55 @@
+.careers_container{
+    background: radial-gradient(50% 50% at 50% 50%, #C5BBBB 18.23%, rgba(45, 103, 146, 0.82) 100%);
+    height: 90vh;
+}
+.careers{
+    .careers_information{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        
+        .info_content{
+            display: flex;
+            flex: 3;
+            flex-direction: row;
+            .face_div{
+                flex: 1;
+                .dewey_face{
+                    width: 10rem;
+                    object-fit: cover;
+                }
+            }
+            .info_text{
+                flex: 4;
+                margin-right: 2rem;
+                h3{
+                    margin-right: 10rem;
+                }
+            }
+        }
+        
+    }
+
+    .careers_promotion{
+        align-items: center;
+        display: flex;
+
+
+        .blue_information_block{
+            height: 100%;
+            width: 50%;
+            text-align: center;
+            background: #2D6792;
+            border-radius: 5rem;
+            margin: 0rem 2rem;
+            justify-content: space-between;
+            p{
+                color: white;
+                margin: 2rem 2rem;
+            }
+        }
+    }
+}
+.detailed_black{
+    color: black;
+}
